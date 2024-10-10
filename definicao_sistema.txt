@@ -1,0 +1,65 @@
+1. Contextualização:
+    a. Que tipo de evento é?
+        Uma competição desportiva multi-modalidades.
+    b. Qual o nome do evento?
+        "Olimpídas".
+    c. História?
+        Com origem na Grécia Antiga, a primeira edição moderna ocorreu em Atenas, em 1896.
+        Desde então, as Olimpíadas evoluíram para um evento global com várias modalidades,
+        envolvendo atletas de diversos países.
+    d. Quais modalidades estarão presentes?
+        O evento incluirá competições de várias modalidades desportivas, como atletismo,
+        natação, futebol, ginástica, entre outras.
+    e. Quem participará?
+        "Comissões" de diferentes países, compostas por atletas e treinadores,
+        e os funcionários do evento; e a audiência/público.
+    f. Quando ocorrerá?
+        Nas férias de verão (Junho/Julho), a cada 4 anos.
+    g. Aonde ocorrerá?
+        Em uma nova localidade a cada edição; o próximo será em Los Angeles, EUA.
+    h. Por que é necessário o desenvolvimento de um SBD?
+        O uso de sistemas de base de dados é essencial para organizar e gerir as informações
+        de forma eficiente, garantindo que os resultados sejam precisos e acessíveis em tempo
+        real para os organizadores, público e participantes.
+
+2. Fundamentação:
+    a. Problema/Desafio:
+        Gerir uma competição com milhares de atletas, dezenas de modalidades e milhões de espectadores
+        é uma tarefa complexa. Os organizadores precisam acompanhar o desempenho dos atletas, gerir o
+        agendamento de eventos, assegurar a integridade dos resultados e armazenar grandes volumes de
+        dados. Além disso, é necessário que os dados possam ser acessados em tempo real por diversas
+        partes interessadas, como árbitros, treinadores e o público.
+    b. Impacto do problema:
+        Se não houver um sistema eficiente para gerir as informações, podem ocorrer atrasos nos
+        resultados, erros na atribuição de medalhas, conflitos de agendamento de eventos e 
+        descontentamento por parte do público e dos atletas. Esses erros podem comprometer a 
+        credibilidade do evento e sua organização, além de impactar negativamente a experiência de 
+        todos os envolvidos. Um sistema de base de dados bem estruturado ajuda a mitigar esses riscos 
+        e a garantir a confiabilidade dos dados, melhorando a gestão global do evento.
+
+3. Objetivos:
+    - Desenvolver uma base de dados relacional para gerir atletas, equipas, modalidades e 
+      resultados de forma eficiente.
+    - Permitir a inserção, consulta e atualização de dados em tempo real para otimizar a gestão 
+      da competição.
+    - Garantir a precisão e integridade dos dados ao longo da competição.
+    - Fornecer relatórios e análises sobre o desempenho dos atletas e equipas, além de acompanhar 
+      a distribuição de medalhas por país.
+    - Facilitar a consulta pública dos resultados e estatísticas da competição
+    
+4. Viabilidade:
+    A implementação de um sistema de base de dados para gerir os atletas e as modalidades das
+    Olimpíadas é viável, uma vez que as tecnologias e infraestruturas necessárias já estão disponíveis. 
+    Ferramentas de gestão de bases de dados relacionais, como MySQL, PostgreSQL ou SQL Server, 
+    são amplamente utilizadas e permitem a escalabilidade e integração de grandes volumes de dados. 
+    Além disso, existem precedentes de eventos desportivos de grande porte que utilizam sistemas 
+    semelhantes, o que prova a viabilidade do projeto.
+
+5. Recursos a utilizar:
+    - Computadores
+    - Documentação
+
+6. Equipa de trabalho:
+    - Três (3) alunos/engenheiros de Sistemas de Bases de Dados
+
+7. Plano de execução:
