@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS Funcionario (
   idTipo INT NOT NULL,
   idCompeticao INT NOT NULL,
   PRIMARY KEY (idFuncionario),
-  FOREIGN KEY (idTipo) REFERENCES Tipo (idTipo)
+  FOREIGN KEY (idTipo) REFERENCES Tipo (idTipo),
   FOREIGN KEY (idCompeticao) REFERENCES Competicao (idCompeticao)
 );
 
@@ -75,7 +75,6 @@ CREATE TABLE IF NOT EXISTS Atleta (
   peso DECIMAL(5,2) NULL,
   altura DECIMAL(3,2) NULL,
   idEquipa INT NOT NULL,
-  --
   PRIMARY KEY (idAtleta),
   FOREIGN KEY (idEquipa) REFERENCES Equipa (idEquipa)
 );
@@ -105,6 +104,6 @@ CREATE TABLE IF NOT EXISTS Resultado (
 CREATE TABLE IF NOT EXISTS Realiza (
   idAtleta INT NOT NULL,
   idMod INT NOT NULL,
-  FOREIGN KEY (idAtleta) REFERENCES Atleta (idAtleta)
+  FOREIGN KEY (idAtleta) REFERENCES Atleta (idAtleta),
   FOREIGN KEY (idMod) REFERENCES Modalidade (idModalidade)
 );
