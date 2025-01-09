@@ -2,10 +2,10 @@ CREATE USER 'adminBD'@'localhost' IDENTIFIED BY 'P4ssW0rd@';
 GRANT ALL PRIVILEGES ON eventodesportivo.* TO 'adminBD'@'localhost';
 
 CREATE USER 'gestorComp'@'localhost' IDENTIFIED BY 'gestor123Comp';
-GRANT SELECT, INSERT, UPDATE ON EventoDesportivo.Competicao TO 'GestorCompeticao1'@'localhost';
-GRANT SELECT, INSERT, UPDATE ON EventoDesportivo.Delegacao TO 'GestorCompeticao1'@'localhost';
-GRANT SELECT, INSERT, UPDATE ON EventoDesportivo.Equipa TO 'GestorCompeticao1'@'localhost';
-GRANT SELECT, INSERT, UPDATE ON EventoDesportivo.Funcionario TO 'GestorCompeticao1'@'localhost';
+GRANT SELECT, INSERT, UPDATE ON EventoDesportivo.Competicao TO 'gestorComp'@'localhost';
+GRANT SELECT, INSERT, UPDATE ON EventoDesportivo.Delegacao TO 'gestorComp'@'localhost';
+GRANT SELECT, INSERT, UPDATE ON EventoDesportivo.Equipa TO 'gestorComp'@'localhost';
+GRANT SELECT, INSERT, UPDATE ON EventoDesportivo.Funcionario TO 'gestorComp'@'localhost';
 
 CREATE USER 'TecnicoResultados1'@'localhost' IDENTIFIED BY 'SenhaResultados2025';
 GRANT SELECT ON EventoDesportivo.Atleta TO 'TecnicoResultados1'@'localhost';
